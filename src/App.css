@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+.routercomponent{
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  height: 794px;
+}
+.routercomponent ul{
+  flex-grow: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+.routercomponent ul li{
+  margin: 5px;
+  padding: 10px;
+  background-color:cornflowerblue;
+}
+.routercomponent ul a{
+  text-decoration: none;
+}
+.Home{
+  flex-grow: 2;
+  text-align: center;
+  background-color:coral;
+}
+.List{
+  flex-grow: 2;
+  text-align: center;
+  background-color: burlywood;
+}
+.Details{
+  flex-grow: 2;
+  text-align: center;
+  background-color:chocolate;
+}
